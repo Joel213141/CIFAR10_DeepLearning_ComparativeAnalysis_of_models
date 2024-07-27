@@ -29,6 +29,12 @@ Multiple neural network architectures were evaluated, including:
 - **Pre-trained CIFAR-10 Model**: A model initially trained on CIFAR-10, then fine-tuned on the food image dataset.
 - **Dropout Variants**: Models incorporating dropout layers to reduce overfitting.
 
+## Training Loss Over Epochs
+
+Below is the plot of the training loss over epochs for the CNN model:
+
+![Training Loss](/results/images/loss.png)
+
 ## Evaluation Metrics
 The models were evaluated based on their accuracy on the test sets of both datasets. Additionally, confusion matrices were generated to analyze the models' performance in detail, helping identify specific areas of strength and weakness in classification tasks.
 
