@@ -98,9 +98,13 @@ pip install -r requirements.txt
 ## Usage
 To train and evaluate the models, run the scripts located in the src/ directory. Each script corresponds to a different part of the project:
 
+
 train_cnn.py: For training the CNN from scratch.
+
 fine_tune_cnn.py: For fine-tuning the pre-trained CNN.
+
 feature_classification.py: For running SVM and AdaBoost classifiers on CNN features.
+
 
 ## Results
 Results including detailed accuracy reports and visualizations of confusion matrices can be found in the results/ directory. These illustrate the strengths and weaknesses of each model across the different classes of the CIFAR-10 dataset.
